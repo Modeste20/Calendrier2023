@@ -36,6 +36,12 @@ body > section p span{
     font-weight: 600;
 }
 
+@media only screen (max-width:500px){
+    body > section p span{
+        margin-top:6px;
+    }
+}
+
 body > section p span.active{
     color:rgb(132, 14, 178);
     background-color: rgb(226, 202, 236);
@@ -92,7 +98,7 @@ body > section span.arrow.arrow-right  {
     }
 
     body > section  span.arrow  {
-        top:75%;
+        top:78%;
     }
 }
 
